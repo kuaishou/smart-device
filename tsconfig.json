@@ -1,0 +1,28 @@
+{
+  "extends": "./src/common/config/typescript/tsconfig.json",
+  "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+          "@/*":[
+              "src/*"
+          ]
+      },
+      "lib": [
+        "esnext",
+        "es2017.object",
+        "dom",
+        "dom.iterable",
+        "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

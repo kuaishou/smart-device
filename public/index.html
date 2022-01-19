@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- 禁用当前页面缓存，此只控制html本身的缓存，其他加载进来的文件不受此影响 -->
+    <meta Http-Equiv="pragma" content="no-cache" />
+    <meta Http-Equiv="Cache-Control" content="no-store, must-revalidate" />
+    <meta Http-Equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT" />
+    <meta Http-Equiv="expires" content="0" />
+    <!-- <script src="js/WebViewJavascriptBridge.js"></script> -->
+    <!-- 移动页面相关设置 -->
+    <!-- 设置宽度为设备的宽度，默认不缩放，不允许用户缩放（即禁止缩放），最大缩放比例，最小缩放比例，
+        在网页加载时隐藏地址栏与导航栏（ios7.1新增）。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1, minimal-ui">
+    <!-- 是否启动webapp功能，会删除默认的苹果工具栏和菜单栏。 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- pple-mobile-web-app-status-bar-style 当启动webapp功能时，显示手机信号、时间、电池的顶部导航栏的颜色。
+         默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）。
+         这个主要是根据实际的页面设计的主体色为搭配来进行设置。 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏
+    <meta name="full-screen" content="yes">-->
+    <!-- QQ强制全屏
+    <meta name="x5-fullscreen" content="true">-->
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- <script src="WebViewJavascriptBridge.js"></script> -->
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 关闭Android/iPhone浏览器自动识别数字为电话号码以及email的识别 -->
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <script src="/eb-web/static/js/polyfill.min.js"></script>
+    <script src="/eb-web/static/js/SituRecorder.js"></script>
+    <style>
+
+    </style>
+
+</head>
+  <body>
+    <noscript>
+      <strong>We're sorry but lvue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <!-- <div ref="loading" class="loading-box-index">
+      <div class="pageLoading bgModal" ></div>
+      <div class="pageLoading loadingWrap borderBox" >
+          <img src="@/components/Loading/loading-change.gif">
+          <p>正在加载</p>
+      </div>
+  </div> -->
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

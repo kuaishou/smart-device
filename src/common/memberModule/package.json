@@ -1,0 +1,11 @@
+{
+    "name": "member-module",
+    "version": "0.1.0",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "node ./rollup.config.js"
+    },
+    "dependencies": {
+        "rollup-plugin-uglify": "^6.0.0"
+    }
+}
